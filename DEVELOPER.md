@@ -54,6 +54,11 @@ Maintains the tenant and organization graph so the rest of the ecosystem can rea
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.org` |
 | Provides Capabilities | `org.tenants` |
 | Owns Data | `org.tenants` |
