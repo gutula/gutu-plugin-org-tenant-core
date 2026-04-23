@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Org Tenant Core",
+  defaultCategory: {
+    id: "user_management",
+    label: "User Management",
+    subcategoryId: "organizations_tenants",
+    subcategoryLabel: "Organizations & Tenants"
+  },
   description: "Tenant and organization graph management.",
   extends: [],
   dependsOn: ["auth-core"],
